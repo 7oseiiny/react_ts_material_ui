@@ -1,4 +1,3 @@
-import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -7,9 +6,10 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 
+
 export default function Navbar() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 0 }}>
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -25,6 +25,8 @@ export default function Navbar() {
             News
           </Typography>
           <Button color="inherit">Login</Button>
+          
+
         </Toolbar>
       </AppBar>
     </Box>
